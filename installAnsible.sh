@@ -9,6 +9,6 @@ sudo apt-get install -y python-setuptools
 
 # Install Ansible
 echo '[Install Ansible] '
-sudo ansible
+sudo apt-get install ansible 
 
 echo '[Install Ansible] Done!'

@@ -1,0 +1,11 @@
+ - name: Example ansible
+   hosts: 127.0.0.1 ansible_python_interpreter=/usr/bin/python3
+   vars:
+     packages:
+	   - nmap
+  
+  tasks:
+    - name: install software
+	  apt:
+	    name: "{{ packages }} "
+		state: present  

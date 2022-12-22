@@ -5,11 +5,13 @@
 
 # Install Ansible Dependencies
 echo '[Install Ansible] Install dependencies'
-sudo apt-get install -y python-setuptools python-pip
+#sudo apt-get install -y python-setuptools
 
 # Install Ansible
 echo '[Install Ansible] '
-sudo apt-add-repository --yes --update ppa:ansible/ansible
-sudo apt-get install ansible 
+python3 -m pip install --upgrade --user pip
+python3 -m pip install --user ansible
 
+python3 -m pip install --upgrade pip
+python3 -m pip install ansible
 echo '[Install Ansible] Done!'

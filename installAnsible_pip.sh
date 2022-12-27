@@ -5,7 +5,8 @@
 
 # Install Ansible Dependencies
 echo '[Install Ansible] Install dependencies'
-#sudo apt-get install -y python-setuptools
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt-get install -y python3-pip python3.11 #python-setuptools
 
 # Install Ansible
 echo '[Install Ansible] '

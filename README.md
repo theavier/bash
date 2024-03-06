@@ -5,6 +5,6 @@ if git missing, install on debian with
 
 /> git clone https://github.com/theavier/bash-ansible.git
 
-/> chmod +x ./install-ansible.sh
+/> chmod +x ./installAnsible.sh
 
-/> ./install-ansible.sh
+/> ./installAnsible.sh
